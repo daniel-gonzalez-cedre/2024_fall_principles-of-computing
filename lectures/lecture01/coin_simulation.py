@@ -24,7 +24,7 @@ def simulate(args) -> tuple[bool, list[str]]:
 if __name__ == "__main__":
   N: int = 100000
   num_coins: int = 1000
-  num_flips: int = int(input("How many times should we flip in a row? " ))
+  num_flips: int = int(input("How many times should we flip in a row? "))
 
   rng: np.random.Generator = default_rng()
 
