@@ -7,7 +7,7 @@ Define a function that takes three arguments and returns their weighted average 
 - The *third* argument represents final **project** points.
 
 All arguments and output should be between `0` and `100`.
-Round your result to three decimal places using the `round(_, 3)` function.
+Round your result to three decimal places using the `round(_, 3)` function: `round(3.14159, 3)` will return `3.142`.
 
 | **Name:**         | `score`                                       |
 | ----------------- | ---------------                               |

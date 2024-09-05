@@ -2,7 +2,7 @@
 
 Define a function that takes the average of its two inputs.
 The inputs may be `int` or `float` type, but the output must be `float` type.
-Round your result to three decimal places using the `round(_, 3)` function.
+Round your result to three decimal places using the `round(_, 3)` function: `round(3.14159, 3)` will return `3.142`.
 
 | **Name:**         | `exam_average`                                |
 | ----------------- | ---------------                               |
