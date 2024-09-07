@@ -1,5 +1,7 @@
 ## Instructions
 
+Due date: `11:59pm` on `Sunday, 15th of September, 2024`
+
 For each of the following 10 problems, you will be asked to define a function that takes some **inputs,** produces some **outputs,** and has some number of **side effects.**
 Each function must be named according to the problem's instructions (otherwise, grading would be a nightmare).
 
