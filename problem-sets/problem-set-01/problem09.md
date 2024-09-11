@@ -18,7 +18,7 @@ Invoking `grade(100.0)` returns `A`.
 
 Invoking `grade(91.2)` returns `A-`.
 
-Invoking `grade(69.5)` returns `C-`.
+Invoking `grade(68.5)` returns `C-`.
 
 Invoking `grade(59.0)` returns `F`.
 
