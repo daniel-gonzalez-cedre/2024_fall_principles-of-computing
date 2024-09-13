@@ -15,7 +15,7 @@ Round your result to three decimal places using the `round(_, 3)` function: `rou
 
 ### Example Input & Output
 
-Invoking `exam_average(1.0, 2.0)` returns `0.5`.
+Invoking `exam_average(1.0, 2.0)` returns `1.5`.
 
 Invoking `exam_average(1.0, 1.0)` returns `1.0`.
 
