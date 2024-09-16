@@ -40,39 +40,30 @@ def ps_average(x0, x1, x2, x3, x4, x5, x6, x7, x8, x9):
   if x0 > 0:
     total = total + x0
     count = count + 1
-
   if x1 > 0:
     total = total + x1
     count = count + 1
-
   if x2 > 0:
     total = total + x2
     count = count + 1
-
   if x3 > 0:
     total = total + x3
     count = count + 1
-
   if x4 > 0:
     total = total + x4
     count = count + 1
-
   if x5 > 0:
     total = total + x5
     count = count + 1
-
   if x6 > 0:
     total = total + x6
     count = count + 1
-
   if x7 > 0:
     total = total + x7
     count = count + 1
-
   if x8 > 0:
     total = total + x8
     count = count + 1
-
   if x9 > 0:
     total = total + x9
     count = count + 1
