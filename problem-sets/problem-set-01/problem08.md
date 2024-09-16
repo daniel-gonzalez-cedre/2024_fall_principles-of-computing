@@ -10,7 +10,7 @@ All arguments and output should be between `0` and `100`.
 Round your result to three decimal places using the `round(_, 3)` function: `round(3.14159, 3)` will return `3.142`.
 
 | **Name:**         | `score`                                       |
-| ----------------- | ---------------                               |
+| ----------------- | --------------------------------------------- |
 | **Inputs:**       | (`arg1: float`, `arg2: float`, `arg3: float`) |
 | **Outputs:**      | (`float`)                                     |
 | **Side Effects:** |                                               |
