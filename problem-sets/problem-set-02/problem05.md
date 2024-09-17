@@ -3,7 +3,10 @@
 Define a function that takes one integer argument `arg1`.
 The function returns the sum of the even integers between `arg1` and `10000` inclusive.
 
+Recall that `range(a, b)` returns an *iterable list* containing all of the integers between `a` (inclusive) and `b` (exclusive).
+
 You *are not* permitted to use built-in functions or types that we have not yet studied.
+You *are not* permitted to use the `%` operator (if you have seen it before in another class).
 You *are* permitted to use iteration (e.g., `for` loops.)
 
 | **Name:**         | `even_sum`                                     |
@@ -13,6 +16,7 @@ You *are* permitted to use iteration (e.g., `for` loops.)
 | **Side Effects:** |                                                |
 | **Restrictions:** | No built-in functions we have not yet studied. |
 |                   | No built-in types we have not yet studied.     |
+|                   | No use of % operator.                          |
 
 <details open><summary>Example</summary>
 
