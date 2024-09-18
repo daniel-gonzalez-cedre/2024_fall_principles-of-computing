@@ -18,7 +18,7 @@ You *are* permitted to use iteration (e.g., `for` loops.)
 
 ### Example Input & Output
 
-Invoking `remove_all("m", "Carthago delenda est.")` returns the string `"Carthago dlnda st."`.
+Invoking `remove_all("e", "Carthago delenda est.")` returns the string `"Carthago dlnda st."`.
 
 Invoking `remove_all("et", "Dulce et decorum est,")` returns the string `"Dulce et decorum est,"`.
 

@@ -21,9 +21,9 @@ You *are* permitted to use the `str` methods we have learned about so far: `str.
 
 Invoking `remove_first_two("e", "Carthago delenda est.")` returns the string `"Carthago dlnda est."`.
 
-Invoking `remove_first_two("et", "Dulce et decorum est")` returns the string `"Dulce et decorum est,"`.
+Invoking `remove_first_two("et", "Dulce et decorum est")` returns the string `"Dulce et decorum est"`.
 
-Invoking `remove_first_two(" ", "Perferetobdura, dolor hic tibi proderit olim.")` returns the string `"Perfer et obdura, dolor hic tibi proderit olim."`.
+Invoking `remove_first_two(" ", "Perfer et obdura, dolor hic tibi proderit olim.")` returns the string `"Perferetobdura, dolor hic tibi proderit olim."`.
 
 Invoking `remove_first_two("z", "Perfer et obdura, dolor hic tibi proderit olim.")` returns the string `"Perfer et obdura, dolor hic tibi proderit olim."`.
 
