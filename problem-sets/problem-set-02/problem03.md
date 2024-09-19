@@ -4,6 +4,8 @@ Define a function that takes two strings `arg1` and `arg2` as inputs.
 If `arg1` only contains one character, then the function returns a copy of `arg2` with *the first two occurrences* of `arg1` removed from it.
 Otherwise, the program simply returns `arg2`.
 
+Recall that we can we can check whether or not a character `c` occurs in a string `s` by evaluationg `c in s`.
+
 You *are not* permitted to use iteration (e.g., `for` loops) in your solution to this problem.
 You *are* permitted to use the `str` methods we have learned about so far: `str.index()`, `str.lower()`, and `str.upper()`.
 
