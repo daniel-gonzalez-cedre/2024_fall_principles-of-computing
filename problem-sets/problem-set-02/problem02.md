@@ -1,6 +1,7 @@
 ## Problem 2
 
 Define a function that takes one string input `arg1` and returns the *length of the last word* in `arg1` if `arg1` contains more than one word; otherwise, the function returns `-1`.
+The given string will *not* have any leading nor trailing spaces.
 A *word* in a string is any (contiguous) substring of maximal length that does not contain a space character.
 
 #### Note:
