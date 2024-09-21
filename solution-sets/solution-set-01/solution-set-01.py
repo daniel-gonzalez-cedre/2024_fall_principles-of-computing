@@ -24,7 +24,7 @@ def palindrome(x):
 
 # problem 05
 def is_palindrome(x):
-  return x == x[::-1]
+  return x.lower() == x.lower()[::-1]
 
 
 # problem 06
