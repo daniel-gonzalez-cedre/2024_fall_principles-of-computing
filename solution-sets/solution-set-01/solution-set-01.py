@@ -11,7 +11,7 @@ def greetings():
 
 # problem 03
 def garble(name):
-  if 3 < len(name):
+  if 3 <= len(name):
     return name[0] + name[len(name)//2] + name[-1]
   else:
     return "???"
