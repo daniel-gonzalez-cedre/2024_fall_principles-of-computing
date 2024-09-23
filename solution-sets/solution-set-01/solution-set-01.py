@@ -109,7 +109,7 @@ def grade(grade_points):
     return "C"
   if 69 < grade_points <= 72:
     return "C-"
-  if 59 < grade_points <= 70:
+  if 59 < grade_points <= 69:
     return "D"
   if 0  < grade_points <= 59:
     return "F"
