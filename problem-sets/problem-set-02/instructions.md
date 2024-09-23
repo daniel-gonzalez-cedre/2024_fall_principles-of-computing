@@ -45,11 +45,11 @@ def example(x, y):
 
 ### Submitting Your Solution
 
-Your solution should be either a Python file named `ps01_<netid>.py`.
-For example, if your NetID is `jdoe3` then your file should be named either `ps01_jdoe3.py`.
+Your solution should be either a Python file named `ps02_<netid>.py`.
+For example, if your NetID is `jdoe3` then your file should be named either `ps02_jdoe3.py`.
 Your file should be uploaded directly to Canvas under the assignment created for this problem set.
 
-For the example above, a valid solution could be a file named `ps01_jdoe3.py` containing the following lines of code:
+For the example above, a valid solution could be a file named `ps02_jdoe3.py` containing the following lines of code:
 ```
 def example(x, y):
   z = x + y
