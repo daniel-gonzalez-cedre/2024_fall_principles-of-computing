@@ -93,25 +93,25 @@ def score(problem_sets, exams, project):
 
 # problem09
 def grade(grade_points):
-  if 93 <= grade_points <= 100:
+  if 92 < grade_points <= 100:
     return "A"
-  if 90 < grade_points <= 93:
+  if 89 < grade_points <= 92:
     return "A-"
-  if 87 < grade_points <= 90:
+  if 86 < grade_points <= 89:
     return "B+"
-  if 83 < grade_points <= 87:
+  if 83 < grade_points <= 86:
     return "B"
-  if 80 < grade_points <= 83:
+  if 79 < grade_points <= 82:
     return "B-"
-  if 77 < grade_points <= 80:
+  if 76 < grade_points <= 79:
     return "C+"
-  if 73 < grade_points <= 77:
+  if 72 < grade_points <= 76:
     return "C"
-  if 70 < grade_points <= 73:
+  if 69 < grade_points <= 72:
     return "C-"
-  if 60 < grade_points <= 70:
+  if 59 < grade_points <= 70:
     return "D"
-  if 0  < grade_points <= 60:
+  if 0  < grade_points <= 59:
     return "F"
 
 
