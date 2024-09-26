@@ -1,4 +1,4 @@
-## Problem 3
+## Problem 4
 
 Define a function that take an integer input `n` and returns the list of all prime numbers less `n`.
 Take care to note that `n` can be *any* integer.

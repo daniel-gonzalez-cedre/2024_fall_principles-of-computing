@@ -1,4 +1,4 @@
-## Problem 2
+## Problem 3
 
 We say that a number `n` is *prime* if and only if, by definition:
 
