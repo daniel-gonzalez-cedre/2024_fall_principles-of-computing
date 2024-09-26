@@ -12,7 +12,7 @@ Otherwise, return the empty list.
 
 | **Name:**         | `twosum`                                     |
 | ----------------- | -------------------------------------------- |
-| **Inputs:**       | (`arg1: int`)                                |
+| **Inputs:**       | (`arg1: list[int]`, `arg2: int`)             |
 | **Outputs:**      | (`list[int]`)                                |
 | **Side Effects:** |                                              |
 | **Restrictions:** | You may look at each list element only once. |
