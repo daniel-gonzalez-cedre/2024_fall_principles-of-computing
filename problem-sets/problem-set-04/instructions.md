@@ -1,6 +1,6 @@
 # Problem Set 4
 
-Due date: `11:59pm` on `Thursday, 10th of October, 2024`
+Due date: `11:59pm` on `Sunday, the 13th of October, 2024`
 
 ## Instructions
 
