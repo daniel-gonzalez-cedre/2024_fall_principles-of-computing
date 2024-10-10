@@ -4,7 +4,6 @@ Consider the following hypothetical scheme for determining whether or not one li
 
 - `list1` is empty.
 - for each `i`, the `i`th element of `list1` is less than or equal to the `i`th element of `list2`.
-- the *first element* of `list1` is **less than or equal to** the *first element* of `list2`.
 
 Conversely, we say that `list1 > list2` if and only if (by definition) **all** of the above conditions are **false.**
 
