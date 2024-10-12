@@ -3,7 +3,8 @@
 Consider the following hypothetical scheme for determining whether or not one list of integers is *"less than or equal to"* another list of integers: given two lists `list1` and `list2` whose elements are all integers, we say that `list1 <= list2` if and only if (by definition) **any** of the following statements is **true.**
 
 - `list1` is empty.
-- for each `i`, the `i`th element of `list1` is less than or equal to the `i`th element of `list2`.
+- for each index `i` of `list1`:
+    - the `i`th element of `list1` is less than or equal to the `i`th element of `list2`.
 
 Conversely, we say that `list1 > list2` if and only if (by definition) **all** of the above conditions are **false.**
 
