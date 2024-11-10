@@ -24,7 +24,7 @@ The file must be located at the relative path `data/baby_names/state_names.csv` 
 
 | **Name:**         | `most_popular_state`                  |
 | ----------------- | ------------------------------------- |
-| **Inputs:**       | (`arg1: str`, `arg2: str`)            |
+| **Inputs:**       | (`str`, `str`)                        |
 | **Outputs:**      | (`dict[int, str]`)                    |
 | **Side Effects:** | None.                                 |
 | **Restrictions:** | You *may not* `import` any libraries. |

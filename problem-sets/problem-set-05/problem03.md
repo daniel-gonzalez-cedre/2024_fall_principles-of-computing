@@ -24,7 +24,7 @@ The file must be located at the relative path `data/bible/kjv.csv` with respect 
 
 | **Name:**         | `word_drift`                          |
 | ----------------- | ------------------------------------- |
-| **Inputs:**       | (`arg1: str`)                         |
+| **Inputs:**       | (`str`)                               |
 | **Outputs:**      | (`dict[int, dict[str, int]]`)         |
 | **Side Effects:** | None.                                 |
 | **Restrictions:** | You *may not* `import` any libraries. |

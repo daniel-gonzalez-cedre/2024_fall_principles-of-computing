@@ -25,7 +25,7 @@ The file must be located at the relative path `data/baby_names/national_names.cs
 
 | **Name:**         | `most_popular_name`                   |
 | ----------------- | ------------------------------------- |
-| **Inputs:**       | (`arg1: str`, `arg2: str`)            |
+| **Inputs:**       | (`str`, `str`)                        |
 | **Outputs:**      | (`tuple[int, str]`)                   |
 | **Side Effects:** | None.                                 |
 | **Restrictions:** | You *may not* `import` any libraries. |

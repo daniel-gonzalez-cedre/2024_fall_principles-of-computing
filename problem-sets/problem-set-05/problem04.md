@@ -15,7 +15,7 @@ The file must be located at the relative path `data/college_football/cfb.csv` wi
 
 | **Name:**         | `fighting_irish`                      |
 | ----------------- | ------------------------------------- |
-| **Inputs:**       | (`arg1: str`)                         |
+| **Inputs:**       | (`str`)                               |
 | **Outputs:**      | (`dict[int, float]`)                  |
 | **Side Effects:** | None.                                 |
 | **Restrictions:** | You *may not* `import` any libraries. |
