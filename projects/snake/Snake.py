@@ -3,6 +3,8 @@ from time import sleep
 from blessed import Terminal
 
 from Point import Point
+from utils import OutOfBoundsError
+
 
 # ◀ ▶ ▴ ▾
 class Snake:
@@ -10,6 +12,7 @@ class Snake:
     # term = term if term is not None else Terminal()
     self.body = [Point(term.width//2 - x, term.height//2) for x in range(3)]
     self.face = Point(1, 0)
+    self.term = term
 
   @property
   def location(self):
@@ -35,7 +38,11 @@ class Snake:
       self.face = direction
 
   def move(self, direction: str | Point = ""):
-    self.body = [self.head + self.face] + self.body[:-1]
+    new_head = (self.head + self.face) % (self.term.width, self.term.height)
+    if new_head in self.body:
+      raise Exception("uh oh")
+    else:
+      self.body = [new_head] + self.body[:-1]
 
   def grow(self):
     self.body += [self.tail]

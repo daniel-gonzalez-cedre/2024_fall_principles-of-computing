@@ -32,6 +32,7 @@ def update(term, ball, direction):
     ball.y = 2*(term.height - 1) - ball.y
     direction.y *= -1
 
+
 def game(term, fps: int = 30):
   with term.fullscreen(), term.cbreak(), term.hidden_cursor():
     write(term.home + term.clear)
@@ -48,8 +49,6 @@ def game(term, fps: int = 30):
       update(term, ball, direction)
       draw(term, ball)
 
-  pass
-
 
 if __name__ == "__main__":
-  game(Terminal(), fps=24)
+  game(Terminal(), fps=12)
