@@ -51,7 +51,7 @@ The game ends in a victory if all of the bricks are cleared.
 + `move()` method
   - moves the paddle one unit in the direction (either left or right) the player selects
 + `respawn()` method
-  - spawns the paddle at the bottom of the screen, vertically centered
+  - spawns the paddle at the bottom of the screen, horizontally centered
 
 ## Brick
 + `location` attribute

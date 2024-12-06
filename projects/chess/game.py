@@ -7,7 +7,7 @@ from Point import Point
 from utils import write
 
 
-def draw(term, fps: int = 24):
+def draw(term):
   with term.location():
     write(term.home + term.clear)
 
@@ -15,14 +15,14 @@ def draw(term, fps: int = 24):
     draw(key)
 
 
-def update(term, fps: int = 24):
+def update(term):
   # hmmm
   return
 
 
 # this processes user input
-async def poll(term, fps: int = 24):
-  key = term.inkey(timeout=1/fps)
+def poll(term):
+  key = term.inkey()
 
   if key is None or key == "":
     key = ""
@@ -55,7 +55,7 @@ async def poll(term, fps: int = 24):
   return key
 
 
-async def game(term, fps: int = 24):
+def game(term):
   with term.fullscreen(), term.hidden_cursor(), term.cbreak():
     player = None
     paddle = None
@@ -63,16 +63,11 @@ async def game(term, fps: int = 24):
 
     # main game loop
     while True:
-      # the next four lines look for user input once per frame
-      sleeping = asyncio.create_task(asyncio.sleep(1/fps))
-      polling = asyncio.create_task(poll(term, fps=fps))
-      await asyncio.gather(polling, sleeping)
-      key = polling.result()
+      key = poll(term)  # wait for user input
 
       with term.location(term.width//2, term.height//2):
         draw(key)
 
 
-# modify the framerate by changing `fps`
 if __name__ == "__main__":
-  asyncio.run(game(Terminal(), fps=24))
+  asyncio.run(game(Terminal()))
